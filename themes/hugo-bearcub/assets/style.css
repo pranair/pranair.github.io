@@ -2,7 +2,7 @@
 body {
   font-family: 'Lato', sans-serif;
   margin: auto;
-  padding: 20px;
+  padding: 18px;
   max-width: 690px;
   text-align: left;
   background-color: #282a36;
@@ -11,7 +11,7 @@ body {
   line-height: 1.5;
   /*color: #c9d1d9;*/
   color: #e9efff;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 
@@ -130,7 +130,7 @@ blockquote {
   color: white; /* Light grayish-white for readability */
   padding: 1px 20px; /* Top/bottom and left/right padding for better spacing */
   font-style: normal; /* Removed italic for better readability */
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500; /* Slightly bold for emphasis */
   border-radius: 4px; /* Rounded corners for a modern look */
 }

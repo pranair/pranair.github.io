@@ -52,11 +52,11 @@
     </body>
 
     <script>
-        // Courtesy of Qwen2.5-Max
+        const llm = "Courtesy of Qwen2.5-Max";
         const canvas = document.getElementById('cubeCanvas');
         const ctx = canvas.getContext('2d');
-        canvas.width = 50;
-        canvas.height = 50;
+        canvas.width = 65;
+        canvas.height = 65;
 
         // Cube vertices and edges
         const vertices = [
@@ -95,7 +95,7 @@
                 const x2 = x * cosY - z1 * sinY;
                 const z2 = x * sinY + z1 * cosY;
 
-                const scale = 35 / (z2 + 3);
+                const scale = 45 / (z2 + 3);
                 return [x2 * scale, y1 * scale];
             });
 
