@@ -19,7 +19,7 @@ enableRobotsTXT = true
   [markup.highlight]
     lineNos = false
     lineNumbersInTable = false
-    style = 'nord'
+    style = 'base16-snazzy'
     # This allows Bear Cub to use a variation of Dracula that is more accessible
     # to people with poor eyesight. For more information about color contrast
     # and accessibility, see https://web.dev/color-and-contrast-accessibility/
